@@ -31,7 +31,7 @@
         
         
         }
-        .menu ul li a{
+       nav .menu ul li a{
             padding-left: 30px;
         }
     .logo img{
@@ -39,7 +39,7 @@
         padding: 2px;
     }
 
-    ul li a{
+  nav  ul li a{
         display: none;
     }
     .menu li a{
@@ -53,15 +53,57 @@
    
     width: 50%;
  line-height: 28px;
- padding-left: 20px;}
-    
+ padding-left: 20px;
 }
+.center_1{
+    display: block;
+}
+/* .mb-style{
+    position: relative;
+    top:270px;
+} */
+    
+.box{
+    width: 100%;
+}
+.box-btn{
+    width: 50%;
+}
+.footer-bar .footer-box{
+    width: 100%;
+}
+.continfo{
+    width: 100%;
+    float: none;
+}
+.footer-bar .menu ul li{
+    padding-left: 0;
+}
+.footer-bar .menu ul{
+    padding-left: 0!important;
+}
+
+/* product pge */
+.col3{
+    width: 100%;
+    margin-bottom: 10px;
+}
+button{
+    border-right: none!important;
+}
+}
+
+
+
+
 
 /* slider */
 
-.mySlides {display: none;}
+.mySlides {display: none;
+    height: 300px;
+}
  .myslides img {vertical-align: middle;
-height: 50vh;
+/* height: 50vh; */
  }
 
 /* Slideshow container */
